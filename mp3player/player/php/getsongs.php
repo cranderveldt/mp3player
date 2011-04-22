@@ -167,7 +167,11 @@ $totalCols = 0;
 			}
 			
 		}
+		else if(($file =="." || $file == ".."){
+			//$files is set to the directory and the process repeats
+		}
 	}
+	//presumably here we check to see if we're in a subdirectory, maybe i'll make a variable to keep track of how deep we are. Maybe i'll call it inception.
 	
 	if($totalAudio == 0){
 		if($audioType == "mp3"){
